@@ -1,5 +1,5 @@
 .collection-item {
-  width: 22%;
+  width: 22vw;
   display: flex;
   flex-direction: column;
   height: 350px;
@@ -22,12 +22,12 @@
     display: none;
   }
 
-  &:hover{
-    .image{
+  &:hover {
+    .image {
       opacity: 0.8;
     }
 
-    .custom-button{
+    .custom-button {
       display: flex;
       opacity: 0.85;
     }
@@ -40,7 +40,7 @@
     justify-content: space-between;
     font-size: 18px;
 
-    .name{
+    .name {
       width: 90%;
       margin-bottom: 15px;
     }
